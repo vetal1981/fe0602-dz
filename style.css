@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#body {
+	background-image: url(img/Lawn-care_cutting.jpg);
+	background-size: 100%; 
+	font: Tahoma, Arial, sans-serif;
+ }
+
+#nav {
+	width: 80%;
+	margin: 0 auto;
+	background: #199344;
+
+}
+#modal {
+	float: left;
+	margin: -374px 0 0 114px;
+}
+#progress {
+	float: right;
+	width: 20%;
+	margin: 0 280px 0 0;
+}
+
+#carouselExampleIndicators {
+	margin-top: 100px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.games {
+	font-weight: bold;
+	font-family: 11px Tahoma, Arial, sans-serif;
+	color: red;
+}
+
+#button {
+	display: flex;
+	
+	border: 4px double black;
+	background-color: #d8c4d6;
+	font-weight: bold;
+	color: green;
+
+}
+
+.collapse_pazzle {
+	width: 24%;
+	margin: 0 auto;
+}
+
+#info {
+	
+}
+
+.sport {
+	width: 200px;
+	height: 110px;
+}
+.collapse_pazzle {
+	float: right;
+	margin-top: -350px;
+}
+.info {
+	float: left;
+	width: 25%;
+	margin: 0 0 0 280px;
+}
+
+

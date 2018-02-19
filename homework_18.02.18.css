@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#body {
+	background-image: url(img/210854.jpg);
+	background-size: 100%; 
+	font: Tahoma, Arial, sans-serif;
+
+ }
+
+#nav {
+	width: 80%;
+	margin: 0 auto;
+	background: #9319686e;
+
+}
+.btn{
+	    color: #671160;
+}
+#modal {
+	float: left;
+	margin: -374px 0 0 114px;
+}
+#progress {
+	float: right;
+	width: 20%;
+	margin: 0 112px 0 0;
+}
+#carouselExampleIndicators {
+	margin-top: 100px;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+#carousel {
+	border-radius: 0 0 15px 15px;
+}
+
+.games {
+	font-weight: bold;
+	font-family: 11px Tahoma, Arial, sans-serif;
+	color: red;
+}
+
+#button {
+	display: flex;
+	
+	border: 4px double black;
+	background-color: #d8c4d6;
+	font-weight: bold;
+	color: green;
+
+}
+
+.collapse_pazzle {
+	width: 24%;
+	margin: 0 auto;
+}
+.sport {
+	width: 200px;
+	height: 110px;
+}
+.collapse_pazzle {
+	float: right;
+	margin-top: -350px;
+	margin-right: 150px;
+}
+.info {
+
+	width: 25%;
+	margin: 0 0 0 113px;
+}
+#dropdown {
+	float: right;
+}
+#carouselExampleIndicators {
+	float: left;
+	margin-left: 113px;
+}
+ ul{
+    list-style: none;
+}
+ul > li{
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+ul.hobby > li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: #f44242;
+}
+
