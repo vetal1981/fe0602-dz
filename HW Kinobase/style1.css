@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (orientation: landscape) {
+  /* Target device in landscape mode */
+}
+
+@media all and (orientation: portrait) {
+  /* Target device in portrait mode */
+}
+@media screen and (max-width: 800px) {
+  /* specific CSS */
+}
+@media screen and (max-width: 479px) {
+  /* specific CSS */
+}
+
+
+body {
+	background: url(img/softgrey.png) 100%;
+	font: 0.6875em Tahoma, Arial, sans-serif;
+}
+						/*Header Begin*/
+header {
+	background: #1f1f1f;
+	height: 36px;
+}
+
+header h1 {
+	float: left;
+	margin: 6px 0 0 175px;
+}						
+header span {
+	float: left;
+	margin: 15px 0 0 10px;
+	color: #565555;
+}
+header nav {
+	float: right;
+	margin-right: 174px;
+}
+li {
+	font-weight: bold;
+	color: #565555;
+}
+
+.menu {
+	list-style: none;
+	
+}
+.menu li {
+	padding: 10px 13px 12px 10px;
+	display: inline-block;
+	border-left: 1px solid #141414;
+}
+.menu li:last-child {
+	border-right: 1px solid #141414;
+}
+
+#logo {
+	float: left;
+}
+a {
+	text-decoration: none;
+}
+.open a {
+	font: 10px;
+	color: #565555;
+}
+.menu a {
+	display: inline-block;
+	font: bold 12px;
+	font-weight: bold;
+	color: #565555;
+	color: color: #6d6c6c;
+	text-decoration: none;
+}
+.menu a:hover {
+	color: #8ff442;
+}
+
+.wrapper, .registration, .rating, #grey1, #grey1 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+						/*Header Begin*/
+
+
+.registration {
+	background: #1950a8;
+	height: 52px;
+}
+.account a, .enter a {
+	font-size: 14.49px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.input a {
+	font-size: 12.49px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.account {
+	float: left;
+	margin: 20px 16px 0px 220px;
+	padding-right: 16px; 
+	border-right: solid #fff;
+}
+#corner {
+	float: right;
+	display: inline;
+	margin: -60px -645px 0 0;
+
+}
+.enter {
+	float: left;
+	margin: 20px 16px 0px 0;
+}
+
+section .input {
+	float: right;
+	margin: 4px 174px 15px 0px;
+}
+#search {
+	margin-right: 20px;
+}
+
+.rating {
+	background: #e3e3e3;
+
+	height: 40px;
+}
+#windows {
+	width: 383px;
+	height: 31px;
+}
+section p {
+	padding-right: 12px;
+}
+.search {
+	float: right;
+	margin-right: 8px;
+	font-size: 10px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #ffffff;
+}
+#grey1 {
+	background: #c2c2c2;
+	height: 8px;
+	border-top: solid #a2a2a2; 
+}
+#grey2 {
+	background: #c2c2c2;
+	height: 8px;
+	border-bottom: solid #a2a2a2; 
+}
+.rating a {
+	font-size: 19px;
+	font-weight: bold;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #a8a6a6;
+}
+.rating-ex {
+	text-shadow: #fcfcfc 1px 1px 0;
+	float: left;
+	margin: 10px 0px 0px 282px;
+}
+.img {
+	position: relative;
+	background-image: url(img/lion.png);
+	overflow-y: hidden;
+	height: 275px;
+}
+#section-img {
+	position: absolute; 
+	right: 228px; 
+	top: 6px; 
+	bottom: 15px; 
+	width: 315px;
+	
+}
+#karusel-img {
+
+	
+	width: 307px;
+	height: 202px;
+	background-color: #000307;
+	border-radius: 3px;
+}
+#poster {
+	/*position: absolute; */
+	
+	margin: 180px 0 0 737px;
+}
+.poster {
+	border: 1px solid #fff;
+	margin-right: 9px;
+}
+.poster:last-child {
+	margin-right: 0;
+}
+#circle {
+	/*float: left;*/
+	margin: -165px 0 0 1064px;
+}
+#circle_right {
+	float: left;
+	margin: -55px 0 0 169px;
+}
+#section-img {
+	color: white;
+
+}
+#Madag {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 6px 0 0 6px;
+}
+#Madag1 {
+	font-size: 12px;
+	margin: 3px 0 0 6px;
+}
+#Madag_img {
+	display: flex;
+	float: left;
+	margin: 17px 0 0 4px;
+}
+#Madag2 {
+	font-size: 9px;
+	font-weight: bold;
+	float: left;
+	margin: 44px 0 0 9px;
+
+}
+#Madag_img2 {
+	float: left;
+	margin: 56px 0 0 -21px;
+}
+#Madag3 {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 61px 0 0 -51px;
+}
+#Madag4 {
+	font-size: 12px;
+	position: absolute;
+	float: left;
+	margin: 55px 0 0 260px;
+}
+#bal {
+
+}
+#Madag5 {
+	font-size: 11px;
+	float: left;
+	margin: 10px 0 0 6px;
+}
+#big_corner {
+
+	position: relative; z-index: 2;
+	margin-top: -177.6px;
+	margin-left: 987px;
+}
+#big_corner_r {
+	
+	position: relative; z-index: 2;
+	margin-top: 110.5px;
+	margin-left: 724.5px;
+}
+#big_corner_d {
+	position: absolute;
+	margin: 61px 0 0 52px;
+}
+
