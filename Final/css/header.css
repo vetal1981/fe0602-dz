@@ -1,0 +1,366 @@
+/*PRIMARY NAVBAR*/
+
+.active
+{
+    background: #806e7f;
+    color: #ffacac;
+}
+.info
+{
+    color: #6e38ec;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.menu-main
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input
+{
+    border-radius: 12px;
+    font-size: 15px;
+    transition: .3s linear;
+}
+form.search
+{
+    left: 0;
+    margin-top: 110px;
+    position: relative;
+    top: -5px;
+}
+.slogan
+{
+    align-items: center;
+    color: #ffacac;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -55px;
+    text-align: center;
+}
+.actions
+{
+    font-size: 10px;
+    left: 1100px;
+    list-style: none;
+    margin-left: 5px;
+    position: absolute;
+    top: 110px;
+    word-spacing: -4px;
+}
+.actions a
+{
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.actions a,
+.input
+{
+    color: purple;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+}
+
+/*навигаційна панель*/
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.top-menu
+{
+    background: hsla(282, 18%, 48%, .48);
+    position: relative;
+}
+.menu-main
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-main:after
+{
+    clear: both;
+    content: '';
+    display: table;
+}
+.navbar-logo
+{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu-main a
+{
+    color: purple;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    line-height: 40px;
+    padding: 0 10px;
+    transition: .3s linear;
+}
+.menu-main a:hover
+{
+    background: #806e7f;
+    color: #ffacac;
+}
+@media (max-width: 830px)
+{
+    .menu-main
+    {
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 830px)
+{
+    .menu-main li
+    {
+        display: block;
+    }
+}
+.navbar-logo
+{
+    left: 50%;
+    position: absolute;
+    top: 10px;
+    transform: translateX(-50%);
+}
+.menu-main li
+{
+    float: none;
+}
+.menu-main .active
+{
+    background: #806e7f;
+}
+@media (max-width: 630px)
+{
+    .menu-main li
+    {
+        display: block;
+    }
+}
+
+/*регстрация*/
+
+::-moz-selection
+{
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* Basics */
+
+#container
+{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-name: bounceIn;
+    animation-timing-function: linear;
+    height: 280px;
+    left: 87%;
+    margin-left: -170px;
+    margin-top: -140px;
+    moz-animation-duration: 1s;
+    moz-animation-fill-mode: both;
+    moz-animation-iteration-count: 1;
+    moz-animation-name: bounceIn;
+    moz-animation-timing-function: linear;
+    position: absolute;
+    top: 25%;
+    webkit-animation-duration: 1s;
+    webkit-animation-fill-mode: both;
+    webkit-animation-iteration-count: 1;
+    webkit-animation-name: bounceIn;
+    webkit-animation-timing-function: linear;
+    width: 340px;
+}
+.badge
+{
+    cursor: pointer;
+    left: 45px;
+    position: relative;
+    top: -10px;
+}
+.search_img .glyphicon
+{
+    cursor: pointer;
+    left: 25px;
+    top: 3px;
+}
+form
+{
+    margin-top: 20px;
+}
+label
+{
+    color: #555;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 18px;
+}
+p a,
+.password a
+{
+    color: #aaa;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 20px;
+    moz-transition: all .4s ease;
+    transition: all .4s ease;
+    webkit-transition: all .4s ease;
+}
+.password a
+{
+    margin-top: -13px;
+}
+p a
+{
+    margin-top: 23px;
+}
+p a:hover
+{
+    color: #555;
+}
+input
+{
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+input[type=name],
+input[type=password],
+input[type=text]
+{
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+    color: #777;
+    font-family: 'Poiret One', sans-serif;
+    height: 35px;
+    margin: 10px;
+    margin-left: 18px;
+    margin-top: 12px;
+    moz-transition: all .4s ease;
+    padding-left: 10px;
+    transition: all .4s ease;
+    webkit-transition: all .4s ease;
+    width: 290px;
+}
+input[type=name]:hover,
+input[type=password]:hover
+{
+    border: 1px solid #b6bfc0;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=name]:focus,
+input[type=password]:focus
+{
+    border: 1px solid #a8c9e4;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+.search .search_image
+{
+    height: 20px;
+   /* left: -45px;*/
+    position: relative;
+    top: 6px;
+    width: 20px;
+}
+#lower
+{
+    height: 69px;
+    width: 100%;
+}
+#lower .search_img
+{
+    height: 35px;
+    left: 120px;
+    position: relative;
+    top: -24px;
+    width: 35px;
+}
+input[type=checkbox]
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.check
+{
+    color: #444;
+    font-size: 11px;
+    margin-left: 3px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+input[type=submit], #checkout, #clear_cart, #send {
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+    border: 1px solid #66add6;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    
+}
+#checkout, #clear_cart {
+    margin-top: -16px;
+}
+
+
+input[type=submit]
+{
+    margin-top: 10px;
+    width: 80px;
+}
+input[type=submit]:hover
+{
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+}
+input[type=submit]:active
+{
+    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
+}
+header
+{
+    display: block;
+    position: relative;
+}
+#cart_content {
+    color: purple;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+.del_item {
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}

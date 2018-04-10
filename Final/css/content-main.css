@@ -1,0 +1,114 @@
+/*Товари*/
+figure
+{
+    height: 265px;
+}
+.rows
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.rows > figure
+{
+    border: 1px solid black;
+    margin: 10px;
+    margin-bottom: 15px;
+    min-width: 240px;
+    position: relative;
+    text-align: center;
+    width: 15%;
+}
+.rows > figure > figcaption
+{
+    padding: 5px;
+}
+.rows > figure > img
+{
+    width: 100%;
+}
+.rows .name
+{
+    font-size: 22px;
+}
+.rows .price-value
+{
+    color: #666;
+    font-weight: bold;
+}
+.rows .btn
+{
+    background: #c9a7de;
+    border: 1px solid #a3a8aa;
+    border-radius: 0;
+    bottom: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    height: 10%;
+    left: 0;
+    moz-transition: opacity 400ms;
+    ms-transition: opacity 400ms;
+    o-transition: opacity 400ms;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 400ms;
+    webkit-transition: opacity 400ms;
+    width: 100%;
+}
+.btn-info
+{
+    background: #c9a7de;
+    border: 1px solid #a3a8aa;
+    border-radius: 0;
+    bottom: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    left: 178px;
+    moz-transition: opacity 400ms;
+    ms-transition: opacity 400ms;
+    o-transition: opacity 400ms;
+    padding: 0;
+    position: absolute;
+    transition: opacity 400ms;
+    webkit-transition: opacity 400ms;
+    width: 25%;
+}
+.rows > figure:hover .btn,
+.rows > figure:hover .btn-info
+{
+    opacity: .7;
+}
+.crop
+{
+    float: left;
+    height: 190px;
+    margin: .2em .2em .2em .2em;
+    overflow: hidden;
+    position: relative;
+    width: 232px;
+}
+.shopping_list 
+{
+    background-color: rgba(195, 137, 206, 0.38);
+    margin: 10px auto;
+    width: 55%;
+    border-collapse: collapse;
+}
+.shopping_list td,
+.shopping_list th 
+{
+    padding: 10px;
+    border: 4px solid #777ed2;
+}
+#send 
+{
+    float: right;
+    margin: 10px;
+}

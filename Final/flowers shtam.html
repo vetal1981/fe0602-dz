@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>flower.ua - Vetal_d</title>
+    <!-- Сайт, оптимизированный для мобильных устройств -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Google Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>    
+    <link href='http://fonts.googleapis.com/css?family=Indie Flower&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+    <!--Products-carousel CSS style -->
+    <link href="css/product-carousel.css" rel="stylesheet">  
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- <script type="text/javascript" src="js/nav.js"></script> -->
+    <script src="js/index.js" defer></script>
+
+<body>
+    <style type="text/css">
+        body {
+            background: url(img/dg.jpg) repeat top #fddcb5;
+        }
+    </style>
+                                                        <!-- Header -->
+    <header class="header" role="navigation">
+        <nav class="navbar-PRIMARY">
+                 <form method="get" action="" class="search">
+                    <input id="text-to-find" class="input" type="text" name="" placeholder=" Пошук по сайту">
+                    <input class="search_image" type="image" src="img/search.png" alt="ОК" onclick="javascript: searchTextOnPage('text-to-find'); return false;"/>
+                </form>
+                <div class="head-text">
+                    <a href="flowers.html" class="logo" src>
+                        <img class="logotip" src="img/logo1.png" alt="Error"/>
+                    </a>
+                    <span class="slogan">Королева</span>
+                    <span class="slogan">саду</span>
+                </div>
+                <div id="container">
+                    <p><a href="#">Реєстрація</a></p>
+                    <form form name='form' onsubmit='return validate()'>
+                        <label for="name">Логін:</label>
+                        <input type="name" name='forename'>
+                        <label for="username">Пароль:</label>
+                        <p class="password"><a href="#">Забули пароль?</a></p>
+                        <input type="password" name="sign">
+                        <div id="lower">
+                            <input type="checkbox"><label class="check" for="checkbox">Запам‘ятати мене</label>
+                            <input type="submit" value="Увійти">
+                        </div>
+                    </form>
+                    <p>
+                        <button id="checkout">Оформити замовлення</button> &nbsp; 
+                        <button id="clear_cart">Видалити товари</button>
+                    </p>
+                </div>
+            </nav>
+    </header>
+                                                        <!-- NAV -->        
+    <nav class="top-menu">
+        <ul class="menu-main">
+          <li class="left-item"><a href="flowers_tea.html">Чайно-гібридні</a></li>
+          <li class="left-item"><a href="flowers grunt.html">Грунтопокривні</a></li>
+          <li class="left-item"><a href="flowers mini.html">Мініатюрні</a></li>
+          <li class="left-item"><a href="flowers park.html">Паркові</a></li>
+          <li class="left-item"><a href="flowers plet.html">Плетисті</a></li>
+          <li class="left-item"><a href="flowers patio.html">Спреї</a></li>
+          <li class="left-item"><a href="flowers eng.html">Англійські</a></li>
+          <li class="left-item active"><a href="flowers shtam.html"><span class="active">Штамбові</span></a></li>
+      </ul>
+    </nav>
+       <!-- Таблиця з товарами -->
+    <div id="cart_content"></div>
+                                                    <!-- Main -->
+
+    <main>
+         <div class="section-title ">
+            <h1>Штамбові</h1>
+        </div>
+
+        <p class="info">
+            Із усіх троянд, які ви змогли б виростити, немає більш красивішої ніж троянда-дерево. Високі, стрункі крона з рівномірно розташованими бутонами, цвітуть частіше, яскравіше і розкішніше ніж звичайні кущі троянд.
+            Це надзвичайне поєднання дикої природи та майстерності селекціонера.
+            Ці троянди - ультиматум природній красі.
+            Штамбова троянда перетворюється в квітуче дерево з весни до осені. Вони мов спалах в створенні унікальних троянд.
+        </p>
+                                                    <!-- Товари -->
+        <section>
+             <div class="section-title ">
+                <h1>Рекомендуємо</h1>
+            </div>
+            <div class="rows">
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Abbaye de Cluny.jpg"></p>
+                            <h3 class="item_title name">Albrecht Durer</h3>
+                            <p>Вартість: <span class="item_price">58</span>грн</p>
+                            <button class="add_item btn" data-id="7">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Accademia.jpg"></p>
+                            <h3 class="item_title name">Accademia</h3>
+                            <p>Вартість: <span class="item_price">63</span>грн</p>
+                            <button class="add_item btn" data-id="1">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Alain Souchon.jpg"></p>
+                            <h3 class="item_title name">Alain Souchon</h3>
+                            <p>Вартість: <span class="item_price">73</span>грн</p>
+                            <button class="add_item btn" data-id="2">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Abbaye de Cluny.jpg"></p>
+                            <h3 class="item_title name">Abbaye de Cluny</h3>
+                            <p>Вартість: <span class="item_price">96</span>грн</p>
+                            <button class="add_item btn" data-id="3">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                        <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Albrecht Durer.jpg"></p>
+                            <h3 class="item_title name">Albrecht Durer</h3>
+                            <p>Вартість: <span class="item_price">58</span>грн</p>
+                            <button class="add_item btn" data-id="4">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Alphonse Daudet.jpg"></p>
+                            <h3 class="item_title name">Alphonse Daudet</h3>
+                            <p>Вартість: <span class="item_price">63</span>грн</p>
+                            <button class="add_item btn" data-id="5">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Andre Le Notre.png"></p>
+                            <h3 class="item_title name">Andre Le Notre</h3>
+                            <p>Вартість: <span class="item_price">73</span>грн</p>
+                            <button class="add_item btn" data-id="6">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Angelique.jpg"></p>
+                            <h3 class="item_title name">Angelique</h3>
+                            <p>Вартість: <span class="item_price">96</span>грн</p>
+                            <button class="add_item btn" data-id="8">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                        <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Anna Fendi.jpg"></p>
+                            <h3 class="item_title name">Anna Fendi</h3>
+                            <p>Вартість: <span class="item_price">58</span>грн</p>
+                            <button class="add_item btn" data-id="9">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Anna Pavlova.jpg"></p>
+                            <h3 class="item_title name">Anna Pavlova</h3>
+                            <p>Вартість: <span class="item_price">63</span>грн</p>
+                            <button class="add_item btn" data-id="10">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Antico Amore.jpg"></p>
+                            <h3 class="item_title name">Antico Amore</h3>
+                            <p>Вартість: <span class="item_price">73</span>грн</p>
+                            <button class="add_item btn" data-id="11">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="item_box">
+                            <p class="crop"><img src="img/tea/Abbaye de Cluny.jpg"></p>
+                            <h3 class="item_title name">Abbaye de Cluny</h3>
+                            <p>Вартість: <span class="item_price">96</span>грн</p>
+                            <button class="add_item btn" data-id="12">До кошику</button>
+                            <button class="add_item btn-info">Деталі</button>
+                        </div>
+                    </figure>
+            </div>
+        </section>
+    </main>
+
+                                            <!-- footer -->
+    <footer>
+        <div class="contener"> 
+            <ul>
+                <li>
+                    <p class="home">Головна</p>
+                    <a class="logo_footer" href="#">Garden'sQueen.ua <i>&copy; 2018</i></a>
+                </li>
+                <li>
+                    <p class="services">Послуги</p>
+                    <ul>
+                        <li><a href="#">Пакування</a></li>
+                        <li><a href="#">Оплата та доставка</a></li>
+                        <li><a href="#">Оформлення букетів</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="reachus">Зв'язок</p>
+                    <ul>
+                        <li><a href="mailto:domikanva@ukr.net" class="mail">Email</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li>095 936 46 40</li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="clients">Контакти</p>
+                    <ul>
+                        <li><a href="flowers info.html">Про нас</a></li>
+                        <li><a href="flowers info.html">Гарантія</a></li>
+                        <li><a href="flowers info.html">Режим роботи</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="times">
+                <span id="doc_time">
+                    Дата та час
+                </span>  
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+    <!-- Bootstrap library from local --> 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- In own hosting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>
+</html>

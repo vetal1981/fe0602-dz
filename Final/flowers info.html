@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>flower.ua - Vetal_d</title>
+    <!-- Сайт, оптимизированный для мобильных устройств -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Google Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>    
+    <link href='http://fonts.googleapis.com/css?family=Indie Flower&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+    <!--Products-carousel CSS style -->
+    <link href="css/product-carousel.css" rel="stylesheet">  
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- <script type="text/javascript" src="js/nav.js"></script> -->
+    <script src="js/index.js" defer></script>
+
+
+
+<body>
+    <style type="text/css">
+        body {
+            background: url(img/dg.jpg) repeat top #fddcb5;
+        }
+    </style>
+                                                        <!-- Header -->
+    <header class="header" role="navigation">
+        <nav class="navbar-PRIMARY">
+                 <form method="get" action="" class="search">
+                    <input id="text-to-find" class="input" type="text" name="" placeholder=" Пошук по сайту">
+                    <input class="search_image" type="image" src="img/search.png" alt="ОК" onclick="javascript: searchTextOnPage('text-to-find'); return false;"/>
+                </form>
+                <div class="head-text">
+                    <a href="flowers.html" class="logo" src>
+                        <img class="logotip" src="img/logo1.png" alt="Error"/>
+                    </a>
+                    <span class="slogan">Королева</span>
+                    <span class="slogan">саду</span>
+                </div>
+                <div id="container">
+                    <p><a href="#">Реєстрація</a></p>
+                    <form form name='form' onsubmit='return validate()'>
+                        <label for="name">Логін:</label>
+                        <input type="name" name='forename'>
+                        <label for="username">Пароль:</label>
+                        <p class="password"><a href="#">Забули пароль?</a></p>
+                        <input type="password" name="sign">
+                        <div id="lower">
+                            <input type="checkbox"><label class="check" for="checkbox">Запам‘ятати мене</label>
+                            <input type="submit" value="Увійти">
+                        </div>
+                    </form>
+                    <p>
+                        <button id="checkout">Оформити замовлення</button> &nbsp; 
+                        <button id="clear_cart">Видалити товари</button>
+                    </p>
+                </div>
+            </nav>
+    </header>
+                                                        <!-- NAV -->        
+    <nav class="top-menu">
+        <ul class="menu-main">
+          <li class="left-item"><a href="flowers_tea.html">Чайно-гібридні</a></li>
+          <li class="left-item"><a href="flowers grunt.html">Грунтопокривні</a></li>
+          <li class="left-item"><a href="flowers mini.html">Мініатюрні</a></li>
+          <li class="left-item"><a href="flowers park.html">Паркові</a></li>
+          <li class="left-item"><a href="flowers plet.html">Плетисті</a></li>
+          <li class="left-item"><a href="flowers patio.html">Спреї</a></li>
+          <li class="left-item"><a href="flowers eng.html">Англійські</a></li>
+          <li class="left-item"><a href="flowers shtam.html">Штамбові</a></li>
+      </ul>
+    </nav>
+       <!-- Таблиця з товарами -->
+    <div id="cart_content"></div>
+                                                    <!-- Main -->
+
+                                                  <!-- Карусель -->
+    <main>
+        <div class="section-title ">
+            <h1>Контакти</h1>
+        </div>
+         <div id="Work" class="info">
+            <ul>
+                <li><p>місто Обухів</p></li>
+                <li><p>вул.Миру, 17-а</p></li>
+            </ul>
+        </div>
+        <div class="section-title ">
+            <h1>Про нас</h1>
+        </div>
+         <div id="Work" class="info">
+            <ul>
+                <li>
+                    <p>На сьогоднішній день GreenMarket – це інтернет-магазин, що гарантує якість всього асортименту товару, а також надає дбайливий сервіс для справжніх гурманів садівництва.</p>
+                </li>
+                <li>
+                    <p>Кожного дня ми робимо кроки вперед у розвитку нашої справи. Ми зростаємо та окреслюємо для себе нові завдання у напрямку популяризації садівництва шляхом навчання та професійної допомоги. Ми відкрито ділимося своїми знаннями з тими, хто так само віддано захоплюється садівництвом. На сайті працює безкоштовна консультація від біолога, дендронома та агронома. Багато питань ми вже встигли освітлити на сторінках нашого Блогу. Корисна, а головне, практична інформація і науковий підхід представлені у простій для розуміння формі. Кожна рубрика була створена для того, щоб допомагати, навчати і надихати!</p>
+                </li>
+                <li>
+                    <p>Все це відбувається завдяки невичерпній енергії людей, що працюють в компанії. Вони до кінця віддані своїй справі.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section-title ">
+            <h1>Гарантія</h1>
+        </div>
+         <div id="Work" class="info">
+            <ul>
+                <li>
+                    <p>Інтернет-магазин «Грінмаркет» працює 4 роки. За цей час ми доставили нашим клієнтам десятки тисяч саджанців. До своєї роботи ми підходимо дуже відповідально. Щоб забезпечити високу якість продукції, ми працюємо тільки з перевіреними постачальниками і маємо власний розплідник. Перед тим, як відправляти товар з нашого складу, він ретельно перевіряється і упаковується.</p>
+                </li>
+                <li>
+                    <p>Додатково функціонує служба контролю якості, яка здійснює післяпродажний сервіс. Дана служба забезпечує оперативне вирішення будь-яких питань, і підтримує високий рівень обслуговування. Тому можете бути повністю впевнені, що Ви нічим не ризикуєте, здійснюючи замовлення в нашому магазині. Також ми зобов'язуємося виконувати гарантійні обов'язки, з якими Ви можете ознайомитися нижче.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section-title ">
+            <h1>Режим роботи </h1>
+        </div>
+         <div id="Work" class="info">
+            <ul>
+                <li><p>Понеділок-П'ятниця: 08:00-18:00</p></li>
+                <li><p>Субота-Неділя: вихідні</p></li>
+            </ul>
+        </div>
+    </main>
+       
+
+                                                                <!-- footer -->
+       <footer>
+                <div class="contener"> 
+
+            <ul>
+                <li>
+                    <p class="home">Головна</p>
+                    <a class="logo_footer" href="#">Garden'sQueen.ua <i>&copy; 2018</i></a>
+                </li>
+                <li>
+                    <p class="services">Послуги</p>
+                    <ul>
+                        <li><a href="#">Пакування</a></li>
+                        <li><a href="#">Оплата та доставка</a></li>
+                        <li><a href="#">Оформлення букетів</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="reachus">Зв'язок</p>
+                    <ul>
+                        <li><a href="mailto:domikanva@ukr.net" class="mail">Email</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li>095 936 46 40</li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="clients">Контакти</p>
+                    <ul>
+                        <li><a href="flowers info.html">Про нас</a></li>
+                        <li><a href="flowers info.html">Гарантія</a></li>
+                        <li><a href="flowers info.html">Режим роботи</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="times">
+                <span id="doc_time">
+                    Дата та час
+                </span>  
+            </div>
+        </div>
+    </footer>
+
+</body>       
+
+    <!-- Bootstrap library from local --> 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- In own hosting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>
+</html>

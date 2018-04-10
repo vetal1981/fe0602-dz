@@ -1,0 +1,37 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'content-main.css';
+@import 'footer.css';
+@import 'product-carousel.css';
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+}
+html,
+body
+{
+    color: #000;
+    font-family: 'Poiret One', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+.logotip
+{
+    display: block;
+    height: 180px;
+    margin: -119px auto 0 auto;
+    width: 300px;
+}
+.info > ul > li
+{
+    color: #334d6a;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin: 0 20px 20px 150px;
+    text-transform: uppercase;
+}
